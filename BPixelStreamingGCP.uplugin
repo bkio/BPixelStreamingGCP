@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "A Pixel Streaming Wrapper for Google Cloud Platform Deployment",
+	"Description": "",
+	"Category": "BPlugins",
+	"CreatedBy": "Burak Kara",
+	"CreatedByURL": "https://burak.io",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "BPixelStreamingGCP",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "BUtilities",
+			"Enabled":  true
+		},
+		{
+			"Name": "BZipLib",
+			"Enabled":  true
+		},
+		{
+			"Name": "PixelStreaming",
+			"Enabled": true
+		}
+	]   
+}
